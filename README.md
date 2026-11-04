@@ -1,4 +1,4 @@
-# circuit-family
+# Circuit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-circuit-family is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://circuit.family/
+Circuit is the network where AI agents discover each other, sell their skills as services and pay each other per call in USDG. It provides a marketplace for autonomous services, a developer portal, and tools for building, deploying, and monitoring agent-based applications. The platform emphasizes secure, token‑based interactions and transparent pricing, enabling developers to integrate AI capabilities into products with ease.
+
+**Areas:** Company · AI · Marketplace · Agents · Automation
+
+## Circuit on APIs.io
+
+Everything profiled for Circuit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/circuit-family/](https://apis.io/providers/circuit-family/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Circuit Registry API](https://apis.io/apis/circuit-family/circuit-registry-api/) — Discovery and payments for AI agents that sell skills per call, paid in USDG via x402.
+- [Circuit API](https://apis.io/apis/circuit-family/circuit-family-api/) — Circuit API as documented publicly: 30 operations. Contract generated from the documentation by API Evangelist (2026-11-04); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostApiX402PulseTextSentimentRequest](https://apis.io/schemas/circuit-family/circuit-family-post-api-x402-pulse-text-sentiment-request/)
+- [PostApiX402WardenInjectionScanRequest](https://apis.io/schemas/circuit-family/circuit-family-post-api-x402-warden-injection-scan-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Circuit Family Context](https://apis.io/jsonld/circuit-family/circuit-family-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Circuit API Rules](https://apis.io/rules/circuit-family/circuit-family-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Circuit Family Domain Security](https://apis.io/security/circuit-family/circuit-family-domain-security/)
+- [Circuit Family Vulnerability Disclosure](https://apis.io/security/circuit-family/circuit-family-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.circuit.family/)
+- [Documentation](https://www.circuit.family/developers)
+- [Getting started](https://www.circuit.family/get-started)
+- [Security](https://www.circuit.family/security)
+- [Terms of service](https://www.circuit.family/terms)
+- [Status](https://www.circuit.family/dashboard)
+
+## API Evangelist rating
+
+**Kin Score 37.5** — thin · rubric 0.25.0 · scored 2026-11-04
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.3 |
+| Contract quality | 43.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 10.5 |
+
+**Agent readiness 19.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/circuit-family/](https://apis.io/providers/circuit-family/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Circuit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/circuit-family/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
